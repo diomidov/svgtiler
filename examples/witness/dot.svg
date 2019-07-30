@@ -4,5 +4,5 @@
   <symbol id=".-v0" viewBox="-10,-10,20,20" z-index="0">
     <circle x="0" y="0" r="10" fill="black"/>
   </symbol>
-  <use xlink:href="#.-v0" x="0" y="0" width="20" height="20"/>
+  <use xlink:href="#.-v0" x="0" y="0" data-r="0" data-c="0" width="20" height="20"/>
 </svg>

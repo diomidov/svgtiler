@@ -18,53 +18,53 @@
     <circle r="10" fill="red"/>
   </symbol>
   <symbol id="$20" viewBox="-10,-10,20,20"/>
-  <use xlink:href="#$2B" x="0" y="0" width="10" height="10"/>
-  <use xlink:href="#-" x="10" y="0" width="20" height="10"/>
-  <use xlink:href="#$2B" x="30" y="0" width="10" height="10"/>
-  <use xlink:href="#-" x="40" y="0" width="20" height="10"/>
-  <use xlink:href="#$2B" x="60" y="0" width="10" height="10"/>
-  <use xlink:href="#-" x="70" y="0" width="20" height="10"/>
-  <use xlink:href="#UNRECOGNIZED" x="90" y="0" width="10" height="10"/>
-  <use xlink:href="#$7C" x="0" y="10" width="10" height="20"/>
-  <use xlink:href="#X" x="10" y="10" width="20" height="20"/>
-  <use xlink:href="#$7C" x="30" y="10" width="10" height="20"/>
-  <use xlink:href="#$20" x="40" y="10" width="20" height="20"/>
-  <use xlink:href="#$7C" x="60" y="10" width="10" height="20"/>
-  <use xlink:href="#UNRECOGNIZED" x="70" y="10" width="20" height="20"/>
-  <use xlink:href="#$7C" x="90" y="10" width="10" height="20"/>
-  <use xlink:href="#$2B" x="0" y="30" width="10" height="10"/>
-  <use xlink:href="#-" x="10" y="30" width="20" height="10"/>
-  <use xlink:href="#$2B" x="30" y="30" width="10" height="10"/>
-  <use xlink:href="#-" x="40" y="30" width="20" height="10"/>
-  <use xlink:href="#$2B" x="60" y="30" width="10" height="10"/>
-  <use xlink:href="#-" x="70" y="30" width="20" height="10"/>
-  <use xlink:href="#$2B" x="90" y="30" width="10" height="10"/>
-  <use xlink:href="#$7C" x="0" y="40" width="10" height="20"/>
-  <use xlink:href="#$20" x="10" y="40" width="20" height="20"/>
-  <use xlink:href="#$7C" x="30" y="40" width="10" height="20"/>
-  <use xlink:href="#X" x="40" y="40" width="20" height="20"/>
-  <use xlink:href="#$7C" x="60" y="40" width="10" height="20"/>
-  <use xlink:href="#$20" x="70" y="40" width="20" height="20"/>
-  <use xlink:href="#UNRECOGNIZED" x="90" y="40" width="10" height="20"/>
-  <use xlink:href="#$2B" x="0" y="60" width="10" height="10"/>
-  <use xlink:href="#-" x="10" y="60" width="20" height="10"/>
-  <use xlink:href="#X" x="30" y="60" width="10" height="10"/>
-  <use xlink:href="#-" x="40" y="60" width="20" height="10"/>
-  <use xlink:href="#$2B" x="60" y="60" width="10" height="10"/>
-  <use xlink:href="#-" x="70" y="60" width="20" height="10"/>
-  <use xlink:href="#$2B" x="90" y="60" width="10" height="10"/>
-  <use xlink:href="#$7C" x="0" y="70" width="10" height="20"/>
-  <use xlink:href="#$20" x="10" y="70" width="20" height="20"/>
-  <use xlink:href="#$7C" x="30" y="70" width="10" height="20"/>
-  <use xlink:href="#$20" x="40" y="70" width="20" height="20"/>
-  <use xlink:href="#$7C" x="60" y="70" width="10" height="20"/>
-  <use xlink:href="#X" x="70" y="70" width="20" height="20"/>
-  <use xlink:href="#$7C" x="90" y="70" width="10" height="20"/>
-  <use xlink:href="#$2B" x="0" y="90" width="10" height="10"/>
-  <use xlink:href="#-" x="10" y="90" width="20" height="10"/>
-  <use xlink:href="#$2B" x="30" y="90" width="10" height="10"/>
-  <use xlink:href="#-" x="40" y="90" width="20" height="10"/>
-  <use xlink:href="#$2B" x="60" y="90" width="10" height="10"/>
-  <use xlink:href="#X" x="70" y="90" width="20" height="10"/>
-  <use xlink:href="#$2B" x="90" y="90" width="10" height="10"/>
+  <use xlink:href="#$2B" x="0" y="0" data-r="0" data-c="0" width="10" height="10"/>
+  <use xlink:href="#-" x="10" y="0" data-r="0" data-c="1" width="20" height="10"/>
+  <use xlink:href="#$2B" x="30" y="0" data-r="0" data-c="2" width="10" height="10"/>
+  <use xlink:href="#-" x="40" y="0" data-r="0" data-c="3" width="20" height="10"/>
+  <use xlink:href="#$2B" x="60" y="0" data-r="0" data-c="4" width="10" height="10"/>
+  <use xlink:href="#-" x="70" y="0" data-r="0" data-c="5" width="20" height="10"/>
+  <use xlink:href="#UNRECOGNIZED" x="90" y="0" data-r="0" data-c="6" width="10" height="10"/>
+  <use xlink:href="#$7C" x="0" y="10" data-r="1" data-c="0" width="10" height="20"/>
+  <use xlink:href="#X" x="10" y="10" data-r="1" data-c="1" width="20" height="20"/>
+  <use xlink:href="#$7C" x="30" y="10" data-r="1" data-c="2" width="10" height="20"/>
+  <use xlink:href="#$20" x="40" y="10" data-r="1" data-c="3" width="20" height="20"/>
+  <use xlink:href="#$7C" x="60" y="10" data-r="1" data-c="4" width="10" height="20"/>
+  <use xlink:href="#UNRECOGNIZED" x="70" y="10" data-r="1" data-c="5" width="20" height="20"/>
+  <use xlink:href="#$7C" x="90" y="10" data-r="1" data-c="6" width="10" height="20"/>
+  <use xlink:href="#$2B" x="0" y="30" data-r="2" data-c="0" width="10" height="10"/>
+  <use xlink:href="#-" x="10" y="30" data-r="2" data-c="1" width="20" height="10"/>
+  <use xlink:href="#$2B" x="30" y="30" data-r="2" data-c="2" width="10" height="10"/>
+  <use xlink:href="#-" x="40" y="30" data-r="2" data-c="3" width="20" height="10"/>
+  <use xlink:href="#$2B" x="60" y="30" data-r="2" data-c="4" width="10" height="10"/>
+  <use xlink:href="#-" x="70" y="30" data-r="2" data-c="5" width="20" height="10"/>
+  <use xlink:href="#$2B" x="90" y="30" data-r="2" data-c="6" width="10" height="10"/>
+  <use xlink:href="#$7C" x="0" y="40" data-r="3" data-c="0" width="10" height="20"/>
+  <use xlink:href="#$20" x="10" y="40" data-r="3" data-c="1" width="20" height="20"/>
+  <use xlink:href="#$7C" x="30" y="40" data-r="3" data-c="2" width="10" height="20"/>
+  <use xlink:href="#X" x="40" y="40" data-r="3" data-c="3" width="20" height="20"/>
+  <use xlink:href="#$7C" x="60" y="40" data-r="3" data-c="4" width="10" height="20"/>
+  <use xlink:href="#$20" x="70" y="40" data-r="3" data-c="5" width="20" height="20"/>
+  <use xlink:href="#UNRECOGNIZED" x="90" y="40" data-r="3" data-c="6" width="10" height="20"/>
+  <use xlink:href="#$2B" x="0" y="60" data-r="4" data-c="0" width="10" height="10"/>
+  <use xlink:href="#-" x="10" y="60" data-r="4" data-c="1" width="20" height="10"/>
+  <use xlink:href="#X" x="30" y="60" data-r="4" data-c="2" width="10" height="10"/>
+  <use xlink:href="#-" x="40" y="60" data-r="4" data-c="3" width="20" height="10"/>
+  <use xlink:href="#$2B" x="60" y="60" data-r="4" data-c="4" width="10" height="10"/>
+  <use xlink:href="#-" x="70" y="60" data-r="4" data-c="5" width="20" height="10"/>
+  <use xlink:href="#$2B" x="90" y="60" data-r="4" data-c="6" width="10" height="10"/>
+  <use xlink:href="#$7C" x="0" y="70" data-r="5" data-c="0" width="10" height="20"/>
+  <use xlink:href="#$20" x="10" y="70" data-r="5" data-c="1" width="20" height="20"/>
+  <use xlink:href="#$7C" x="30" y="70" data-r="5" data-c="2" width="10" height="20"/>
+  <use xlink:href="#$20" x="40" y="70" data-r="5" data-c="3" width="20" height="20"/>
+  <use xlink:href="#$7C" x="60" y="70" data-r="5" data-c="4" width="10" height="20"/>
+  <use xlink:href="#X" x="70" y="70" data-r="5" data-c="5" width="20" height="20"/>
+  <use xlink:href="#$7C" x="90" y="70" data-r="5" data-c="6" width="10" height="20"/>
+  <use xlink:href="#$2B" x="0" y="90" data-r="6" data-c="0" width="10" height="10"/>
+  <use xlink:href="#-" x="10" y="90" data-r="6" data-c="1" width="20" height="10"/>
+  <use xlink:href="#$2B" x="30" y="90" data-r="6" data-c="2" width="10" height="10"/>
+  <use xlink:href="#-" x="40" y="90" data-r="6" data-c="3" width="20" height="10"/>
+  <use xlink:href="#$2B" x="60" y="90" data-r="6" data-c="4" width="10" height="10"/>
+  <use xlink:href="#X" x="70" y="90" data-r="6" data-c="5" width="20" height="10"/>
+  <use xlink:href="#$2B" x="90" y="90" data-r="6" data-c="6" width="10" height="10"/>
 </svg>

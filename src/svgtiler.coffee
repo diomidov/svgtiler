@@ -544,6 +544,8 @@ class Drawing extends Input
         use.setAttribute 'xlink:href', '#' + symbol.id()
         use.setAttributeNS SVGNS, 'x', x
         use.setAttributeNS SVGNS, 'y', y
+        use.setAttribute 'data-r', i
+        use.setAttribute 'data-c', j
         scaleX = scaleY = 1
         if symbol.autoWidth
           colWidths[j] ?= Math.max 0, ...(
