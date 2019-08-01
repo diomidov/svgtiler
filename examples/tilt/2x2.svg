@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2100 1900" width="2100" height="1900" preserveAspectRatio="xMinYMin meet">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 2100 1900" width="2100" height="1900" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">
   <symbol id="0">
     <text x="25" y="35" fill="black" style="font-size: 30" text-anchor="middle" xmlns="http://www.w3.org/2000/svg">0</text>
   </symbol>
@@ -16,7 +16,7 @@
   <symbol id="-" viewBox="0,0,50,50">
     <rect x="0" y="0" width="50" height="50" fill="#fafafa" stroke="#dadada" xmlns="http://www.w3.org/2000/svg"/>
   </symbol>
-  <symbol id="O" viewBox="1,1,48,48">
+  <symbol id="O" viewBox="0,0,50,50">
     <g xmlns="http://www.w3.org/2000/svg">
       <rect x="0" y="0" width="50" height="50" fill="#fafafa" stroke="#dadada"/>
       <circle cx="25" cy="25" r="24" fill="#9bcf51"/>
@@ -128,7 +128,7 @@
   <use xlink:href="#X" x="700" y="100" data-r="2" data-c="14" width="50" height="50"/>
   <use xlink:href="#X" x="750" y="100" data-r="2" data-c="15" width="50" height="50"/>
   <use xlink:href="#X" x="800" y="100" data-r="2" data-c="16" width="50" height="50"/>
-  <use xlink:href="#O" x="850" y="100" data-r="2" data-c="17" width="48" height="48"/>
+  <use xlink:href="#O" x="850" y="100" data-r="2" data-c="17" width="50" height="50"/>
   <use xlink:href="#-" x="900" y="100" data-r="2" data-c="18" width="50" height="50"/>
   <use xlink:href="#X" x="950" y="100" data-r="2" data-c="19" width="50" height="50"/>
   <use xlink:href="#X" x="1000" y="100" data-r="2" data-c="20" width="50" height="50"/>
@@ -141,7 +141,7 @@
   <use xlink:href="#X" x="1350" y="100" data-r="2" data-c="27" width="50" height="50"/>
   <use xlink:href="#X" x="1400" y="100" data-r="2" data-c="28" width="50" height="50"/>
   <use xlink:href="#X" x="1450" y="100" data-r="2" data-c="29" width="50" height="50"/>
-  <use xlink:href="#O" x="1500" y="100" data-r="2" data-c="30" width="48" height="48"/>
+  <use xlink:href="#O" x="1500" y="100" data-r="2" data-c="30" width="50" height="50"/>
   <use xlink:href="#-" x="1550" y="100" data-r="2" data-c="31" width="50" height="50"/>
   <use xlink:href="#X" x="1600" y="100" data-r="2" data-c="32" width="50" height="50"/>
   <use xlink:href="#X" x="1650" y="100" data-r="2" data-c="33" width="50" height="50"/>
@@ -399,7 +399,7 @@
   <use xlink:href="#X" x="1950" y="400" data-r="8" data-c="39" width="50" height="50"/>
   <use xlink:href="#X" x="2000" y="400" data-r="8" data-c="40" width="50" height="50"/>
   <use xlink:href="#A" x="0" y="450" data-r="9" data-c="0" width="50" height="50"/>
-  <use xlink:href="#O" x="50" y="450" data-r="9" data-c="1" width="48" height="48"/>
+  <use xlink:href="#O" x="50" y="450" data-r="9" data-c="1" width="50" height="50"/>
   <use xlink:href="#-" x="100" y="450" data-r="9" data-c="2" width="50" height="50"/>
   <use xlink:href="#-" x="150" y="450" data-r="9" data-c="3" width="50" height="50"/>
   <use xlink:href="#-" x="200" y="450" data-r="9" data-c="4" width="50" height="50"/>
@@ -936,7 +936,7 @@
   <use xlink:href="#X" x="2000" y="1050" data-r="21" data-c="40" width="50" height="50"/>
   <use xlink:href="#1" x="2050" y="1050" data-r="21" data-c="41" width="50" height="50"/>
   <use xlink:href="#B" x="0" y="1100" data-r="22" data-c="0" width="50" height="50"/>
-  <use xlink:href="#O" x="50" y="1100" data-r="22" data-c="1" width="48" height="48"/>
+  <use xlink:href="#O" x="50" y="1100" data-r="22" data-c="1" width="50" height="50"/>
   <use xlink:href="#-" x="100" y="1100" data-r="22" data-c="2" width="50" height="50"/>
   <use xlink:href="#-" x="150" y="1100" data-r="22" data-c="3" width="50" height="50"/>
   <use xlink:href="#-" x="200" y="1100" data-r="22" data-c="4" width="50" height="50"/>

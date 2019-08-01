@@ -20,6 +20,12 @@ else
 SVGNS = 'http://www.w3.org/2000/svg'
 XLINKNS = 'http://www.w3.org/1999/xlink'
 
+setHref = (elt, href) ->
+  if document?
+    elt.setAttributeNS XLINKNS, 'href', href
+  else
+    elt.setAttribute 'xlink:href', href
+
 splitIntoLines = (data) ->
   data.replace('\r\n', '\n').replace('\r', '\n').split('\n')
 whitespace = /[\s\uFEFF\xA0]+/  ## based on https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -500,7 +506,7 @@ class Drawing extends Input
   renderSVGDOM: (mappings) ->
     doc = domImplementation.createDocument SVGNS, 'svg'
     svg = doc.documentElement
-    svg.setAttribute 'xmlns:xlink', XLINKNS
+    svg.setAttribute 'xmlns:xlink', XLINKNS unless document?
     svg.setAttribute 'version', '1.1'
     #svg.appendChild defs = doc.createElementNS SVGNS, 'defs'
     ## Look up all symbols in the drawing.
@@ -557,9 +563,9 @@ class Drawing extends Input
         continue unless symbol?
         levels[symbol.zIndex] ?= []
         levels[symbol.zIndex].push use = doc.createElementNS SVGNS, 'use'
-        use.setAttribute 'xlink:href', '#' + symbol.id()
-        use.setAttributeNS SVGNS, 'x', x
-        use.setAttributeNS SVGNS, 'y', y
+        setHref use, '#' + symbol.id()
+        use.setAttribute 'x', x
+        use.setAttribute 'y', y
         use.setAttribute 'data-r', i
         use.setAttribute 'data-c', j
         scaleX = scaleY = 1
@@ -575,9 +581,9 @@ class Drawing extends Input
           scaleX = scaleY unless symbol.autoWidth
         ## Scaling of symbol is relative to viewBox, so use that to define
         ## width and height attributes:
-        use.setAttributeNS SVGNS, 'width',
+        use.setAttribute 'width',
           (symbol.viewBox?[2] ? symbol.width) * scaleX
-        use.setAttributeNS SVGNS, 'height',
+        use.setAttribute 'height',
           (symbol.viewBox?[3] ? symbol.height) * scaleY
         if symbol.overflowBox?
           dx = (symbol.overflowBox[0] - symbol.viewBox[0]) * scaleX
@@ -598,10 +604,10 @@ class Drawing extends Input
     for level in levelOrder
       for node in levels[level]
         svg.appendChild node
-    svg.setAttributeNS SVGNS, 'viewBox', viewBox.join ' '
-    svg.setAttributeNS SVGNS, 'width', viewBox[2]
-    svg.setAttributeNS SVGNS, 'height', viewBox[3]
-    svg.setAttributeNS SVGNS, 'preserveAspectRatio', 'xMinYMin meet'
+    svg.setAttribute 'viewBox', viewBox.join ' '
+    svg.setAttribute 'width', viewBox[2]
+    svg.setAttribute 'height', viewBox[3]
+    svg.setAttribute 'preserveAspectRatio', 'xMinYMin meet'
     doc
   renderSVG: (mappings) ->
     out = new XMLSerializer().serializeToString @renderSVGDOM mappings
