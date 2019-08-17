@@ -921,7 +921,7 @@ exports = {Symbol, StaticSymbol, DynamicSymbol, unrecognizedSymbol,
 module?.exports ?= exports
 window?.svgtiler ?= exports
 
-unless window?
+if not window? and require.main == module
   main()
 
 `}).call(this)`
