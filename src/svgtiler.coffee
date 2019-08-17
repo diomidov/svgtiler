@@ -918,7 +918,7 @@ exports = {Symbol, StaticSymbol, DynamicSymbol, unrecognizedSymbol,
   Drawing, ASCIIDrawing, DSVDrawing, SSVDrawing, CSVDrawing, TSVDrawing,
   Drawings, XLSXDrawings,
   Input, Mappings, Context, SVGTilerException, SVGNS, XLINKNS, main}
-module?.exports ?= exports
+module?.exports = exports
 window?.svgtiler ?= exports
 
 if not window? and require.main == module
