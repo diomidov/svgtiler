@@ -920,6 +920,7 @@ exports = {Symbol, StaticSymbol, DynamicSymbol, unrecognizedSymbol,
   Input, Mappings, Context, SVGTilerException, SVGNS, XLINKNS, main}
 module?.exports ?= exports
 window?.svgtiler ?= exports
+this.exports ?= exports
 
 if not window? and require.main == module
   main()
